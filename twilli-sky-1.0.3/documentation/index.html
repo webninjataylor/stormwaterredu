@@ -1,0 +1,750 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>TWILLI Sky | Documentation</title>
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+
+    <div class="container">
+
+      <div id="header" class="row">    
+        <div class="col-xs-12">
+          <h2>TWILLI Sky | Documentation</h2>
+          <p>By <em>TWILLI Themes</em> - <a href="mailto:twilli.themes@gmail.com">twilli.themes@gmail.com</a></p>
+        </div>
+      </div><!-- .row -->
+
+      <!-- ======================== MENU ======================== -->
+      <div class="row">
+        <div class="col-xs-12">
+          <ol>
+            <li><a href="#about">About <em>TWILLI Sky</em> Theme</a></li>
+            <li><a href="#whats-included">What's Included</a></li>
+            <li><a href="#getting-started">Getting Started</a></li>
+            <li><a href="#theme-configuration">Theme Configuration</a></li>
+            <li><a href="#html-structure">HTML Structure</a></li>
+            <li><a href="#main-menu">Main Menu</a></li>
+            <li><a href="#top-banner-carousel">Top Banner Carousel</a></li>
+            <li><a href="#image-gallery">Image Gallery</a></li>
+            <li><a href="#hover-effects">Image Hover Effects / Masks</a></li>
+            <li><a href="#blog">Blog</a></li>
+            <li><a href="#contact-form">Contact Page Form</a></li>
+            <li><a href="#pagination">Pagination</a></li>
+            <li><a href="#icons">Scalable Font Icons</a></li>
+            <li><a href="#sources">Sources and Credits</a></li>
+          </ol>
+        </div>
+      </div><!-- .row -->
+      <!-- ======================== end: MENU ======================== --> 
+
+      <hr>
+
+      <!-- ======================== MAIN CONTENT ======================== -->
+      <div id="main-content" class="row">
+        <div class="col-xs-12">
+
+          <!-- ============= About =============== -->
+          <div class="section-container">
+            <h3 id="about" class="section_title"><i class="fa fa-info"></i>About <em>TWILLI Sky</em> Theme</h3>
+
+            <p><em>TWILLI Sky</em> is a fully responsive multipurpose HTML theme by <em>TWILLI Themes</em>. It offers a variety of layouts and components which can be reused anywhere within the theme. The pages are built with Bootstrap, and all of the Bootstrap components/features can be used.</p>
+
+            <p><em>TWILLI Sky</em> includes more than 20 pages/templates and features 6 theme colour styling which can be applied easily to any page.</p>
+
+            <p>All pages' sections are well structured and organised, making them easier to use and edit. <strong><em>However, basic knowledge of HTML, CSS and the Bootstrap framework is required. More information about the Bootstrap framework can be found on <a href="http://getbootstrap.com/" target="_blank">getboostrap.com</a></em></strong></p>
+
+            <br/><a href="#header">&raquo; go to top</a>
+            <hr>
+          </div>
+
+          <!-- ============= Whats Included =============== -->
+          <div class="section-container">
+            <h3 id="whats-included" class="section_title"><i class="fa fa-list-ul"></i>What's Included</h3>
+
+            <p>Included with this theme (in the folder /theme-files/) are the following:</p>
+
+            <h4><i class="fa fa-chevron-right"></i>Theme assets and resources</h4>
+            <ul>
+              <li><strong>bootstrap/</strong> - includes the bootstrap-3.1.1 dist files. It is NOT recommended to edit these files.</li>
+              <li><strong>css/</strong> - includes the <em>TWILLI Sky</em> theme CSS files and the font files.
+                <ul style="font-size:0.9em; color:#7b7b7b">
+                  <li><strong>fonts/</strong> - The font family files used throughout the theme (Open Sans).</li>
+                  <li><strong>less-includes/</strong> - The LESS files which are used to generate the 6 colours' rules.
+                    <ul style="font-size:0.95em;">
+                      <li><strong>colour-list.less</strong> - If you want to edit/add a colour, first edit this file. Then compile the style-colours-less.less and style-mixedcolours-less.less and replace the respective CSS files in /css/</li>
+                    </ul>
+                  </li>
+                  <li><strong>base.css *</strong> - The base CSS rules which override the default Bootstrap styling</li>
+                  <li><strong>loader.css *</strong> - The styling for the page loader.</li>
+                  <li><strong>style-colours.css *</strong> - The 6 colours' styling. Compiled from style-colours-less.less in /css/less-includes/. <em>A minified version is available - style-colours.min.css</em></li>
+                  <li><strong>style-mixedcolours.css *</strong> - The multicolour styling for the main menu. Compiled from style-mixedcolours-less.less in /css/less-includes/. <em>A minified version is available - style-mixedcolours.min.css</em></li>
+                  <li><strong>style-theme</strong> - The main styling rules for <em>TWILLI Sky</em> theme.</li>
+                  <li><strong>styles.css</strong> - <strong>It is RECOMMENDED to include all your extra/additional CSS rules in this file.</strong></li>
+                  <em>* Not recommended to be edited.</em> 
+                </ul>      
+              </li>
+              <li><strong>images/</strong> - all the images used in the theme are found in this folder
+                <ul style="font-size:0.9em; color:#7b7b7b">
+                  <li><strong>design/</strong> - DO NOT DELETE these images as they are needed for the theme styling.</li>
+                  <li><strong>temp/</strong> - these are the theme images used as "dummy" content to populate the website.</li>
+                  <em>It is recommended to store your new images in a separate folder(s).</em>
+                </ul>
+              </li> 
+              <li><strong>js/</strong> - includes the JS scripts used in the <em>TWILLI Sky</em> theme.
+                <ul style="font-size:0.9em; color:#7b7b7b">
+                  <li><strong>functions.js</strong> - this includes all the javascript custom functions used in the website. This is the uncomressed version which you can use for editing / further development. <em>A minified version is available - functions.min.js</em></li>
+                  <li><strong>initialise-functions.js</strong> - all the functions in functions.js above (plus other JS functionality) are initialised in this file (on document/window load, and on page resize).</li>
+                  <em>The other included JS files are required by the theme, and must not be edited.</em> 
+                </ul>
+              </li>
+              <li><strong>plugins/</strong> - includes the plugins (JS/CSS) used by the theme. It is NOT recommended to edit these files.</li> 
+            </ul>
+
+            <h4><i class="fa fa-chevron-right"></i>Theme Pages/Templates (HTML files)</h4>
+            <ul>
+              <li><strong>404.html</strong> - the 404 (Page Not Found) template.</li> 
+              <li><strong>about.html</strong> - a generic template (text/content), with a sidebar.</li>
+              <li><strong>about-fullwidth.html</strong> - a generic template (text/content) spanning across the full width of the container.</li>  
+              <li><strong>about-gallery.html</strong> - includes an image gallery grid (with thumbnails of same dimensions).</li>
+              <li><strong>about-gallery-masonry.html</strong> - includes an image gallery grid in a masonry format (with thumbnails of different sizes).</li>  
+              <li><strong>activities.html</strong> - template includes a grid of thumbnail/text blocks.</li> 
+              <li><strong>activities-textmask.html</strong> - template includes a grid of thumbnail blocks, each with a text mask visible on mouseover.</li>  
+              <li><strong>blog.html</strong> - main blog post listings template, with a sidebar.</li>
+              <li><strong>blog-2.html</strong> - main blog post listings alternative template, in a masonry format.</li>
+              <li><strong>blog-3.html</strong> - main blog post listings alternative template, each post spanning across the full width of the container.</li>    
+              <li><strong>blog-4.html</strong> - main blog post listings alternative template, with each post's meta details in a separate column.</li>
+              <li><strong>blog-item.html</strong> - a single blog post template, with a sidebar, including a comments section.</li>
+              <li><strong>blog-item-2.html</strong> - a single blog post alternative template, full width, including a comments section.</li> 
+              <li><strong>contact.html</strong> - template for a contact page.</li> 
+              <li><strong>contact-2.html</strong> - an alternative template for a contact page.</li>
+              <li><strong>features-slider.html</strong> - template includes a full-width content/text slider.</li> 
+              <li><strong>generic-page-w-submenu.html</strong> - a generic template (text/content) which includes a submenu in a sidebar. This is ideal for any subpage.</li>  
+              <li><strong>index.html</strong> - the home page template.</li>  
+              <li><strong>index-2.html</strong> - an alternative home page template.</li> 
+              <li><strong>news.html</strong> - template includes a list of items each containing a thumbnail, text and date. Ideal for a news listings page.</li> 
+              <li><strong>news-date.html</strong> - template includes a list of items each containing a large-text date, and text. Ideal for a news listings page.</li>  
+              <li><strong>ondemand.html</strong> - a media on-demand list simple template.</li> 
+              <li><strong>services.html</strong> - template includes a list of items each containing a thumbnail, text, and button. Ideal for a services listings page.</li>  
+              <li><strong>services-grid.html</strong> - template features a grid of items each containing a feature icon and text. Multiple alternative styles are included.</li>
+            </ul>
+
+            <br/><a href="#header">&raquo; go to top</a>
+            <hr>
+          </div>
+
+          <!-- ============= Getting Started =============== -->
+          <div class="section-container">
+            <h3 id="getting-started" class="section_title"><i class="fa fa-chevron-circle-right"></i>Getting Started</h3>
+
+            <p>To get started, copy all the files and folders found in /theme-files/ into the root directory of your site.</p>
+
+            <p>Then, start creating your desired website pages by making use of the provided HTML templates (starting from the index.html as the home page).<br/>
+            You can use section blocks / features from the different templates in any page you want.</p>
+
+            <p>Remember that each template page has a common header and footer, and any change to these sections should be replicated in the other template pages.</p>
+
+            <p>More information about the different features/sections can be found below in this documentation.</p>
+
+            <br/><a href="#header">&raquo; go to top</a>
+            <hr>
+          </div>
+
+          <!-- ============= Theme Configuration =============== -->
+          <div class="section-container">
+            <h3 id="theme-configuration" class="section_title"><i class="fa fa-gear"></i>Theme Configuration</h3>
+
+            <p><em>TWILLI Sky</em> theme pages can be configured easily in order to change general page styling. This mostly involves changing classes to the <span class="mono">&lt;body&gt;</span> tag.</p>
+
+            <h4><i class="fa fa-chevron-right"></i>Sections Block</h4>
+            <p>Each page layout can either have isolated section blocks or a single sections block.</p>
+            <p><img src="images/isolated-sections.jpg"></p>
+            <h5>Isolated Section Blocks</h5>
+            <p>This layout style is characterised by separate blocks/containers for each section inside the page. All blocks are slightly apart from each other.<br/>
+            <strong>To apply this layout style: ADD the <span class="mono">isolated-sections</span> class to the <span class="mono">&lt;body&gt;</span> tag of each page.</strong></p>
+
+            <p><img src="images/non-isolated-sections.jpg"></p>
+            <h5>Single Sections Block</h5>
+            <p>This layout style includes all the website sections in one single block/container.<br/>
+            <strong>To apply this layout style: REMOVE the <span class="mono">isolated-sections</span> class from the <span class="mono">&lt;body&gt;</span> tag of each page.</strong></p>
+
+            <hr>
+
+            <h4><i class="fa fa-chevron-right"></i>Page Background</h4>
+            <p>Each page can have a light or dark pattern background. Otherwise, an image can be used as background instead.</p>
+            <p><img src="images/light-background.jpg">&nbsp; <img src="images/dark-background.jpg"></p>
+            <h5>Light/Dark Background</h5>
+            <p><strong>To apply a light or dark background: ADD the <span class="mono">background-light</span> OR the <span class="mono">background-dark</span> class to the <span class="mono">&lt;body&gt;</span> tag of each page.</strong></p>
+
+            <p><img src="images/page-image-background.jpg"></p>
+            <h5>Page Background Image</h5>
+            <p><strong>To apply an image as the page background:</strong></p>
+            <ol>
+              <li>ADD the <span class="mono">w_bg_image</span> class to the <span class="mono">&lt;body&gt;</span> tag of each page.</strong></li>
+              <li>ADD the following CSS rule in <strong>/css/styles.css</strong>:<br/>
+                <xmp>body.w_bg_image {
+  background-image: url(/path/to/background/image.jpg);
+}</xmp>
+              </li>
+            </ol>
+
+            <hr>
+
+            <h4 id="page-colour-theme"><i class="fa fa-chevron-right"></i>Page Colour Theme</h4>
+            <p><em>TWILLI Sky</em> includes 6 colour themes which can be applied to each page:</p>
+            <ul class="colour-themes-list">
+              <li style="background:#fd1c36">red</li>
+              <li style="background:#fd7b07">orange</li>
+              <li style="background:#f4d600">yellow</li>
+              <li style="background:#2bd23b">green</li>
+              <li style="background:#1589ff">blue</li>
+              <li style="background:#ff037a">pink</li>
+            </ul>
+            <p>The selected colour theme would reflect various items within each page, such as the link colour, icon background colour, hover effects, border colour, and more.</p>
+            <p><img src="images/theme-colour-red.jpg">&nbsp; <img src="images/theme-colour-blue.jpg"></p>
+            <p><strong>To apply one of the the colour themes: ADD the <span class="mono">twlsky-red</span>, OR <span class="mono">twlsky-orange</span>, OR <span class="mono">twlsky-yellow</span>, <span class="mono">[...]</span> class to the <span class="mono">&lt;body&gt;</span> tag of each page.</strong></p>
+            <p style="font-size:0.95em; color:#7b7b7b">If you want to edit/add a colour from/to the list above, first edit the LESS file: <strong>/css/less-includes/colour-list.less</strong>. Then compile the <strong>style-colours-less.less</strong> and <strong>style-mixedcolours-less.less</strong> in the same folder and replace the respective CSS files in /css/.<br/>
+              <em>Only do this if you have basic knowledge of LESS. A LESS compiler is required.</em></p>
+
+            <hr>
+
+            <h4><i class="fa fa-chevron-right"></i>Multicolour Main Menu</h4>
+            <p>The main menu items each have a bottom-border hover effect. Same thing applies to the active menu item. In addition, the dropdown menu items have a background-colour hover effect.</p>
+            <p><img src="images/multicolour-menu.jpg"></p>
+            <p>If the Multicolour main menu feature is enabled, each menu item's colour is different, and based on the 6 colour themes mentioned above.<br/>
+              If not enabled, each menu item's colour is the one selected as the page colour theme <em>(see the section <a href="#page-colour-theme">"Page Colour Theme"</a> above)</em>.</p>
+            <p><strong>To enable the Multicolour Main Menu: ADD the <span class="mono">twlsky-mixedcolours</span> class to the <span class="mono">&lt;body&gt;</span> tag of each page.</strong></p>
+
+            <hr>
+
+            <h4><i class="fa fa-chevron-right"></i>Page Pre-Loader</h4>
+            <p>When the page content is loading, a thin coloured progress bar is shown at the very top of the page. Once all content is loaded, the progress bar disappears.</p>
+            <p><img src="images/page-loader-2.jpg"></p>
+            <p><strong>To enable the Page Pre-Loader: ADD the <span class="mono">loader-bar</span> class to the <span class="mono">&lt;body&gt;</span> tag of each page.</strong></p>
+
+            <br/><a href="#header">&raquo; go to top</a>
+            <hr>
+          </div>
+
+          <!-- ============= HTML Structure =============== -->
+          <div class="section-container">
+            <h3 id="html-structure" class="section_title"><i class="fa fa-code"></i>HTML Structure</h3>
+
+            <p>The pages of <em>TWILLI Sky</em> are structured as follows:</p>
+            <xmp><div class="outer-container">
+    <header>
+        <div class="logo"></div>
+        <div id="main-menu-container"></div>
+    </header>
+
+    <div class="inside-body-content-container">
+        [Horizontal Section Container, each wrapped in:]
+        <div class="container-fluid horizontal-section-container"></div>
+        <footer></footer>
+    </div>
+
+    <div id="beneath-footer"></div>
+</div></xmp>
+
+            <h4><i class="fa fa-chevron-right"></i>Website Sections/Blocks</h4>
+            <p>It is important to understand how the website sections/blocks are structured:</p>
+            <ul>
+              <li><strong>Horizontal Section Container</strong> - a single sections block, which spans across the whole width of the content container, and includes a number of section containers
+                <ul>
+                  <li><strong>Section Container</strong> - a single section which represents a website component/feature. These can be moved/reused anywhere inside any Horizontal Section Container.</li>
+                </ul>
+              </li>
+            </ul>
+            <p class="extra_img_spacing"><img src="images/section-containers-legend.jpg"><br/><img src="images/section-containers-1.jpg">&nbsp; <img src="images/section-containers-2.jpg"><br/><img src="images/section-containers-3.jpg">&nbsp; <img src="images/section-containers-4.jpg"></p>
+            <p>The HTML Structure of a Horizontal Section Container involves the following:</p>
+            <ul>
+              <li><span class="mono">&lt;div class="container-fluid horizontal-section-container clearfix"&gt;</span> - <span style="color:#7b7b7b">the outer container of the Horizontal Section</span>
+                <ul>
+                  <li><span class="mono">&lt;div class="row"&gt;</span>
+                    <ul>
+                      <li><span class="mono">&lt;div class="col-XX-X"&gt;</span> - <span style="color:#7b7b7b">this represents a column which contains one or more Section Container. <em>(For more information refer to the <a href="http://getbootstrap.com/css/#grid" target="_blank">"Grid System" section in the Bootstrap documentation</a>)</em></span>
+                        <ul>
+                          <li><span class="mono">&lt;div class="section-container [extra classes] clearfix" id="[unique id for the Section]"&gt;</span> - <span style="color:#7b7b7b">the outer container of the Section Container. Any section can be moved/replicated/deleted through this container. All the content for each section is found in this container.</span></li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+
+            <br/><a href="#header">&raquo; go to top</a>
+            <hr>
+          </div>
+
+          <!-- ============= Main Menu =============== -->
+          <div class="section-container">
+            <h3 id="main-menu" class="section_title"><i class="fa fa-reorder"></i>Main Menu</h3>
+
+            <p>The main menu of <em>TWILLI Sky</em> is represented by <span class="mono">&lt;ul id="main-menu"&gt;</span>. Each menu item can have unlimited number of sub-menus, which appear on mouseover of top level menu items.</p>
+            <p>Each menu item <span class="mono">&lt;li&gt;</span> should have the <span class="mono">menu-item</span> class.<br/>
+            The class representing an active menu item is <span class="mono">current-menu-item</span>. If the active menu item is found inside a sub-menu, the parent top-level menu item should be assigned the <span class="mono">current-menu-ancestor</span> class.</p>
+            <p><img src="images/main-menu.jpg"></p>
+            <p>The HTML structure of the main menu can be summarised as follows:</p>
+            <xmp><ul id="main-menu">
+
+    <!-- first menu item with submenu -->
+    <li class="menu-item">
+        <a href="[link to page">Page Name</a>
+        <ul class="sub-menu">
+            <li class="menu-item">
+                <a href="[link to page]">Page Name</a>
+            </li>
+        </ul>
+    </li>
+
+    <!-- second menu item -->
+    <li class="menu-item">
+        <a href="[link to page">Page Name</a>
+    </li>
+
+    [other menu items]
+
+</ul></xmp>
+
+            <br/><a href="#header">&raquo; go to top</a>
+            <hr>
+          </div>
+
+          <!-- ============= Top Banner Carousel =============== -->
+          <div class="section-container">
+            <h3 id="top-banner-carousel" class="section_title"><i class="fa fa-arrows"></i>Top Banner Carousel</h3>
+
+            <p>The theme includes <a href="http://www.owlgraphic.com/owlcarousel/" target="_blank">Owl Carousel</a>, a responsive slider/carousel which allows you to create elegant image/content sliders.<br/>These can be found in the home page templates (index.html and index-2.html).</p>
+            <p>The content for the carousel is placed inside a separate Horizontal Section Container <em>(see the section <a href="#html-structure">"HTML Structure"</a> above)</em> as below:</p>
+            <xmp><div id="top-banner"
+  class="container-fluid carousel-container horizontal-section-container clearfix">
+    <div class="row">
+        <div class="col-xs-12">
+            <div id="top-banner-carousel" class="owl-carousel owl-theme full-page-image-slider">
+
+              [Each slide/banner is listed here:]
+              <div class="item">[slide content]</div>
+              <div class="item">[slide content]</div>
+
+            </div>
+        </div>
+    </div>
+</div></xmp>
+
+            <h4><i class="fa fa-chevron-right"></i>Slide Content</h4>
+            <p>Each slide inside this carousel MUST include an image, and may contain text captions. There are a number of layout options for each slide:</p>
+            <ul>
+              <li>Without text caption</li>
+              <li>Text caption slightly indented from the image borders, placed at top/bottom left/right corner of the slide.</li>
+              <li>Text caption at the edge of image borders, placed at top/bottom of the slide.</li>
+              <li>Full width text caption at the bottom of the slide.</li>
+            </ul>
+            <p><img src="images/carousel-1.jpg">&nbsp; <img src="images/carousel-2.jpg"><br/><img src="images/carousel-3.jpg">&nbsp; <img src="images/carousel-4.jpg"></p>
+            <p><strong>The HTML markup for each slide should follow this structure:</strong></p>
+            <xmp><div class="item">
+    <div class="text">
+        <a href="#"><h2>[Large Caption Text]</h2></a>
+        <div class="clearfix"></div>
+        <a href="#"><h5>[Smaller Caption Text]</h5></a>
+    </div>
+    <img class="lazyOwl" data-src="/path/to/slide/image.jpg">
+</div></xmp>
+            <h5>Slide without text caption</h5>
+            <ul>
+              <li>Remove/Comment-out the <span class="mono">&lt;div class="text"&gt;</span> container.</li>
+            </ul>
+            <h5>Text caption slightly indented from the image borders</h5>
+            <ul>
+              <li>ADD the <span class="mono">top</span>/<span class="mono">bottom</span> classes AND the <span class="mono">left</span>/<span class="mono">right</span> classes to the <span class="mono">&lt;div class="text"&gt;</span> container to determine the position of the text caption.</li>
+            </ul>
+            <h5>Text caption at the edge of image borders</h5>
+            <ul>
+              <li>First ADD the <span class="mono">top</span>/<span class="mono">bottom</span> classes AND the <span class="mono">left</span>/<span class="mono">right</span> classes to the <span class="mono">&lt;div class="text"&gt;</span> container to determine the position of the text caption.</li>
+              <li>Then ADD the <span class="mono">no-side-padding</span> classe to the same <span class="mono">&lt;div class="text"&gt;</span> container.</li>
+            </ul>
+            <h5>Full width text caption at the bottom of the slide</h5>
+            <ul>
+              <li>Replace the HTML content of the <span class="mono">&lt;div class="text"&gt;</span> container with the following:
+                <xmp><a href="[link]" class="text bottom-full-width">
+    <h2>[Large Caption Text]</h2>
+    <p>[Small Caption Text]</p>
+</a></xmp>
+              </li>
+            </ul>
+
+            <h4><i class="fa fa-chevron-right"></i>Initialising Carousel (JS functionality)</h4>
+            <p>The carousel is initialised in the <strong>/js/initialise-functions.js</strong> under the section "Initialise Top Banner Carousel". More information about the configuration settings for the carousel can be found on the <em>Owl Carousel</em> website: <a href="http://www.owlgraphic.com/owlcarousel/" target="_blank">www.owlgraphic.com/owlcarousel</a></p>
+
+            <h4><i class="fa fa-chevron-right"></i>Slider Navigation Arrows</h4>
+            <p>The slider navigation arrows are found inside the <span class="mono">&lt;section id="top-banner"&gt;</span> container.</p>
+            <xmp><div class="slider-nav slider-nav-left"><i class="fa fa-angle-left"></i></div>
+<div class="slider-nav slider-nav-right"><i class="fa fa-angle-right"></i></div></xmp>
+            <p>To enable the arrows, make sure these exist and are not commented.<br/>
+              To disable the arrows, comment them out or remove them.</p>
+
+            <br/><a href="#header">&raquo; go to top</a>
+            <hr>
+          </div>
+
+          <!-- ============= Image Gallery =============== -->
+          <div class="section-container">
+            <h3 id="image-gallery" class="section_title"><i class="fa fa-photo"></i>Image Gallery</h3>
+
+            <p><em>TWILLI Sky</em> includes two templates for an image gallery.</p>
+            <ul>
+              <li><strong>about-gallery.html</strong> - a gallery grid with thumbnail images of same dimensions.</li>
+              <li><strong>about-gallery-masonry.html</strong> - A gallery grid in a masonry format (with thumbnail images of different sizes).</li>
+            </ul>
+            <p><img src="images/image-gallery.jpg">&nbsp; <img src="images/image-gallery-masonry.jpg"></p>
+            <p>The HTML markup of the gallery is as follows:</p>
+            <xmp><div class="gallery-grid row clearfix">
+    
+    <!-- gallery image -->
+    <div class="gallery-item [col-XX-X]">
+        <a href="/path/to/full/size/image.jpg" class="img-mask-effect [hover effect]" data-lightbox="main-gallery">
+            <img src="/path/to/thumbnail/image.jpg">
+            <i class="mask"><span class="glyphicon glyphicon-search"></span></i>
+        </a>
+    </div>
+
+    <!-- another gallery image -->
+    <div class="gallery-item [col-XX-X]">
+        ...
+    </div>
+
+</div></xmp>
+            <p>For the gallery grid in a masonry format, add the <span class="mono">gallery-masonry</span> class to the <span class="mono">&lt;div class="gallery-grid"&gt;</span> container.</p>
+
+            <p>Each gallery image item links to a larger version of the image via <em>Lightbox</em>.</p>
+
+            <br/><a href="#header">&raquo; go to top</a>
+            <hr>
+          </div>
+
+          <!-- ============= Hover Effect =============== -->
+          <div class="section-container">
+            <h3 id="hover-effects" class="section_title"><i class="fa fa-hand-o-up"></i>Image Hover Effects / Masks</h3>
+
+            <p><em>TWILLI Sky</em> comes with a variety of image hover/mouseover effects.</p>
+            <ul>
+              <li>Fade</li>
+              <li>Slide from left/right/top/bottom</li>
+              <li>Rotate from left/right</li>
+              <li>Box</li>
+              <li>Zoom</li>
+              <li>Scale Images (additional to the effects above)</li>
+              <li>Bottom Caption</li>
+            </ul>
+
+            <p>To add a hover/mask effect to an image, the following HTML structure should be used:</p>
+            <xmp><a href="#" class="img-mask-effect [effect class]">
+    <img src="images/gallery/gallery-thumb-1.jpg">
+    <i class="mask"><span class="fa fa-search"></span></i>
+</a></xmp>
+
+            <!-- hover effect -->
+            <div class="row">
+              <div class="col-xs-2">
+                <a href="#" class="img-mask-effect fade">
+                  <img src="images/gallery/gallery-thumb-1.jpg">
+                  <i class="mask"><span class="glyphicon glyphicon-search"></span></i>
+                </a>
+              </div>
+              <div class="col-xs-10">
+                <h5><i class="fa fa-arrow-circle-right"></i> Fade Effect</h5>
+                <p><strong>To apply this effect to an image: ADD the <span class="mono">fade</span> class to the <span class="mono">&lt;a class="img-mask-effect"&gt;</span> container of the image.</strong></p>
+              </div>
+            </div>
+
+            <!-- hover effect -->
+            <div class="row">
+              <div class="col-xs-2">
+                <a href="#" class="img-mask-effect slidefromleft">
+                  <img src="images/gallery/gallery-thumb-2.jpg">
+                  <i class="mask"><span class="glyphicon glyphicon-search"></span></i>
+                </a>
+              </div>
+              <div class="col-xs-10">
+                <h5><i class="fa fa-arrow-circle-right"></i> Slide Effect (from left/right/top/bottom)</h5>
+                <p><strong>To apply this effect to an image: ADD the <span class="mono">slidefromleft</span> OR <span class="mono">slidefromright</span>, etc, class to the <span class="mono">&lt;a class="img-mask-effect"&gt;</span> container of the image.</strong></p>
+              </div>
+            </div>
+
+            <!-- hover effect -->
+            <div class="row">
+              <div class="col-xs-2">
+                <a href="#" class="img-mask-effect rotatefromleft">
+                  <img src="images/gallery/gallery-thumb-3.jpg">
+                  <i class="mask"><span class="glyphicon glyphicon-search"></span></i>
+                </a>
+              </div>
+              <div class="col-xs-10">
+                <h5><i class="fa fa-arrow-circle-right"></i> Rotate Effect (from left/right)</h5>
+                <p><strong>To apply this effect to an image: ADD the <span class="mono">rotatefromleft</span> OR <span class="mono">rotatefromright</span> class to the <span class="mono">&lt;a class="img-mask-effect"&gt;</span> container of the image.</strong></p>
+              </div>
+            </div>
+
+            <!-- hover effect -->
+            <div class="row">
+              <div class="col-xs-2">
+                <a href="#" class="img-mask-effect box">
+                  <img src="images/gallery/gallery-thumb-4.jpg">
+                  <i class="mask"><span class="glyphicon glyphicon-search"></span></i>
+                </a>
+              </div>
+              <div class="col-xs-10">
+                <h5><i class="fa fa-arrow-circle-right"></i> Box Effect</h5>
+                <p><strong>To apply this effect to an image: ADD the <span class="mono">box</span> class to the <span class="mono">&lt;a class="img-mask-effect"&gt;</span> container of the image.</strong></p>
+              </div>
+            </div>
+
+            <!-- hover effect -->
+            <div class="row">
+              <div class="col-xs-2">
+                <a href="#" class="img-mask-effect zoom">
+                  <img src="images/gallery/gallery-thumb-5.jpg">
+                  <i class="mask"><span class="glyphicon glyphicon-search"></span></i>
+                </a>
+              </div>
+              <div class="col-xs-10">
+                <h5><i class="fa fa-arrow-circle-right"></i> Zoom Effect</h5>
+                <p><strong>To apply this effect to an image: ADD the <span class="mono">zoom</span> class to the <span class="mono">&lt;a class="img-mask-effect"&gt;</span> container of the image.</strong></p>
+              </div>
+            </div>
+
+            <!-- hover effect -->
+            <div class="row">
+              <div class="col-xs-2">
+                <a href="#" class="img-mask-effect fade scaleimage">
+                  <img src="images/gallery/gallery-thumb-7.jpg">
+                  <i class="mask"><span class="glyphicon glyphicon-search"></span></i>
+                </a>
+              </div>
+              <div class="col-xs-10">
+                <h5><i class="fa fa-arrow-circle-right"></i> Scale Image (additional to the other effects)</h5>
+                <p><strong>To apply this effect to an image: ADD the <span class="mono">scaleimage</span> class to the <span class="mono">&lt;a class="img-mask-effect"&gt;</span> container of the image.</strong></p>
+              </div>
+            </div>
+
+            <!-- hover effect -->
+            <div class="row">
+              <div class="col-xs-2">
+                <a href="#" class="img-mask-effect bottom-caption">
+                  <img src="images/gallery/gallery-thumb-8.jpg">
+                  <i class="mask clearfix">
+                    <span class="text">Caption</span>
+                  </i>
+                </a>
+              </div>
+              <div class="col-xs-10">
+                <h5><i class="fa fa-arrow-circle-right"></i> Bottom Caption</h5>
+                <ul>
+                  <li>To apply this effect to an image: ADD the <span class="mono">bottom-caption</span> class to the <span class="mono">&lt;a class="img-mask-effect"&gt;</span> container of the image.</li>
+                  <li>Then, replace the container <span class="mono">&lt;i class="mask"&gt;</span> with:<br/>
+                  <span class="mono">&lt;span class="text"&gt;Caption&lt;/span&gt;</span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <br/><a href="#header">&raquo; go to top</a>
+            <hr>
+          </div>
+
+          <!-- ============= Blog =============== -->
+          <div class="section-container">
+            <h3 id="blog" class="section_title"><i class="fa fa-pencil"></i>Blog</h3>
+
+            <p>The theme offers four different blog post listing templates:</p>
+            <ul>
+              <li><strong>blog.html</strong> - with a sidebar.</li>
+              <li><strong>blog-2.html</strong> - masonry format.</li>
+              <li><strong>blog-3.html</strong> - posts spanning across the full width of the container.</li>    
+              <li><strong>blog-4.html</strong> - post's meta details in a separate column.</li>
+            </ul>
+            <p>There are also two single blog post templates:</p>
+            <ul>
+              <li><strong>blog-item.html</strong> - with a sidebar, including a comments section.</li>
+              <li><strong>blog-item-2.html</strong> - full width, including a comments section.</li>
+            </ul>
+            <p><img src="images/blog-1.jpg">&nbsp; <img src="images/blog-2.jpg"><br/><img src="images/blog-3.jpg">&nbsp; <img src="images/blog-4.jpg"></p>
+            <p>All blog posts/articles are listed in the <span class="mono">&lt;div class="blog-articles-container"&gt;</span>. Each blog post is represented with a <span class="mono">&lt;article class="blog-article"&gt;</span> container.</p>
+            <p>Each blog post in the <em>TWILLI Sky</em> templates include the following:</p>
+            <ul>
+              <li>Title</li>
+              <li>Post Meta
+                <ul>
+                  <li>Post Author</li>
+                  <li>Post Date</li>
+                  <li>Post Tags</li>
+                </ul>
+              </li>
+              <li>Thumbnail Image</li>
+              <li>Excerpt Text</li>
+              <li>Post Full Text *</li>
+              <li>Comments Section *</li>
+              <em>* available in the single blog post templates.</em>
+            </ul>
+
+            <br/><a href="#header">&raquo; go to top</a>
+            <hr>
+          </div>
+
+          <!-- ============= Contact Page Form =============== -->
+          <div class="section-container">
+            <h3 id="contact-form" class="section_title"><i class="fa fa-envelope"></i>Contact Page Form</h3>
+
+            <p><em>TWILLI Sky</em> comes with two alternative layouts for a contact page, contact.html and contact-2.html. Each of these include a functioning PHP Ajax Contact Form.</p>
+            <p><img src="images/contact-page.jpg"></p>
+            <p><strong>When installing this theme it is important to change the email address at the top of the </strong>/php/mail.php<strong> file to the email address the you want this form to send to.</strong></p>
+            <p>The form includes the following fields:</p>
+            <ul>
+              <li>Full Name - <em>required</em></li>
+              <li>Email Address - <em>required</em></li>
+              <li>Contact Number</li>
+              <li>Message - <em>required</em></li>
+            </ul>
+            <p>Each form field is validated on change, and on submitting the form by the <span class="mono">validate_fields()</span> function in /js/functions.js.<br/>Each field has a <span class="mono">data-validation-type</span> attribute, and this determines what type of input is expected in this field. This attribute value can be either: <span class="mono">string</span>, <span class="mono">email</span>, or <span class="mono">phone</span>.</p>
+
+            <p>The form also includes a CAPTCHA, intended to filter spam. The captcha only works if a PHP server is set (locally you need to use a tool like XAMPP, WAMP, or MAMP).</p>
+
+            <br/><a href="#header">&raquo; go to top</a>
+            <hr>
+          </div>
+
+          <!-- ============= Pagination =============== -->
+          <div class="section-container">
+            <h3 id="pagination" class="section_title"><i class="fa fa-ellipsis-h"></i>Pagination</h3>
+
+            <p>There are two types of pagination styles available with this theme:</p>
+            <ul>
+              <li>Numbered Pagination</li>
+              <li>Prev/Next Pagination</li>
+            </ul>
+            <p><img src="images/pagination-1.jpg">&nbsp; <img src="images/pagination-2.jpg">&nbsp; <img src="images/pagination-3.jpg">&nbsp; <img src="images/pagination-4.jpg"></p>
+            <p><strong>The HTML markup for the numbered pagination</strong> is as follows:</p>
+            <xmp><div class="pagination-container clearfix">
+    <ul class="pagination-list">
+        <li class="disabled"><a href="#">&laquo;</a></li>
+        <li class="active"><a href="#">1</a></li>
+        <li><a href="#">2</a></li>
+        <li><a href="#">3</a></li>
+        <li><a href="#">&raquo;</a></li>
+    </ul>
+</div></xmp>
+            <p>Similarly, <strong>the HTML markup for the prev/next navigation</strong> is:</p>
+            <xmp><div class="pagination-container clearfix">
+    <ul class="pagination-list">
+        <li><a href="#">&laquo; Previous</a></li>
+        <li><a href="#">Next &raquo;</a></li>
+    </ul>
+</div></xmp>
+            <p><strong>It is recommended that this code goes right after the end of the list container</strong><br/>Example: after the <span class="mono">&lt;/div&gt;</span> of the <span class="mono">blog-articles-container</span> in the Blog pages.</p>
+            <p>To mark a pagination item as active, add the <span class="mono">active</span> class to the page <span class="mono">&lt;li&gt;</span> item.<br/>
+              To mark a pagination item as disabled, add the <span class="mono">disabled</span> class to the page <span class="mono">&lt;li&gt;</span> item.</p>
+            <p><strong>To center align the pagination items</strong>, add the <span class="mono">center</span> class to the <span class="mono">&lt;div class="pagiantion-container"&gt;</span>.</p>
+            <p>If you prefer the <strong>Prev/Next pagination items on both sides of the page</strong> (floating left and right):</p>
+            <ul>
+              <li>ADD the <span class="mono">float-left</span> class to the "Previous" <span class="mono">&lt;li&gt;</span> tag.</li>
+              <li>And ADD the <span class="mono">float-right</span> class to the "Next" <span class="mono">&lt;li&gt;</span> tag, or vice-versa.</li>
+            </ul>
+
+            <br/><a href="#header">&raquo; go to top</a>
+            <hr>
+          </div>
+
+          <!-- ============= Icons =============== -->
+          <div class="section-container">
+            <h3 id="icons" class="section_title"><i class="fa fa-star"></i>Scalable Font Icons</h3>
+
+            <p><em>TWILLI Sky</em> makes use of two scalable font icon sets:</p>
+            <ul>
+              <li>Glyphicons</li>
+              <li>Font Awesome</li>
+            </ul>
+            <h4><i class="fa fa-chevron-right"></i>Glyphicons</h4>
+            <p><strong>To add a <em>Glyphicons</em> icon, use the following code:</strong><br/>
+            <span class="mono">&lt;span class="glyphicon glyphicon-[icon id]">&lt;/span&gt;</span>, OR:<br/>
+            <span class="mono">&lt;i class="glyphicon glyphicon-[icon id]">&lt;/i&gt;</span></p>
+            <p><strong>The full list of the available icons and their IDs can be found on: <a href="http://getbootstrap.com/components/#glyphicons" target="_blank">getbootstrap.com/components</a>.</strong></p>
+
+            <h4><i class="fa fa-chevron-right"></i>Font Awesome</h4>
+            <p><strong>To add a <em>Font Awesome</em> icon, use the following code:</strong><br/>
+            <span class="mono">&lt;span class="fa fa-[icon id]">&lt;/span&gt;</span>, OR:<br/>
+            <span class="mono">&lt;i class="fa fa-[icon id]">&lt;/i&gt;</span></p>
+            <p><strong>The full list of the available icons and their IDs can be found on: <a href="http://fortawesome.github.io/Font-Awesome/icons/" target="_blank">fortawesome.github.io/Font-Awesome/icons/</a>.</strong></p>
+
+            <p>Remember that these icons should be treated as "text" rather than an "image icon". This means that if, for example you want to change their colour, you should use the CSS "color" rule, as you do to any text. If you want to increase their size, you have to alter their "font-size" value... and so on. </p>
+
+            <br/><a href="#header">&raquo; go to top</a>
+            <hr>
+          </div>
+
+          <!-- ============= Sources =============== -->
+          <div class="section-container">
+            <h3 id="sources" class="section_title"><i class="fa fa-folder-open"></i>Sources and Credits</h3>
+
+            <h4><i class="fa fa-chevron-right"></i>Resources and Plugins:</h4>
+            <ul>
+              <li>jQuery 1.11.1 - <a href="http://jquery.com/" target="_blank">http://jquery.com/</a></li>
+              <li>Bootstrap 3.3.1 - <a href="http://getbootstrap.com/" target="_blank">http://getbootstrap.com/</a></li>
+              <li>jQuery Easing 1.3 - <a href="http://gsgd.co.uk/sandbox/jquery/easing/" target="_blank">http://gsgd.co.uk/sandbox/jquery/easing/</a></li>
+              <li>Owl Carousel 1.3.2 - <a href="http://www.owlgraphic.com/owlcarousel/" target="_blank">http://www.owlgraphic.com/owlcarousel/</a></li>
+              <li>Detect Mobile Browsers - <a href="http://detectmobilebrowser.com/" target="_blank">http://detectmobilebrowser.com/</a></li>
+              <li>Lightbox 2.7.1 - <a href="http://lokeshdhakar.com/projects/lightbox2/" target="_blank">http://lokeshdhakar.com/projects/lightbox2/</a></li>
+              <li>Masonry 3.2.2 - <a href="http://masonry.desandro.com" target="_blank">http://masonry.desandro.com</a></li>
+              <li>Pace 0.5.1 - <a href="http://github.hubspot.com/pace/docs/welcome/" target="_blank">http://github.hubspot.com/pace/docs/welcome/</a></li>
+            </ul>
+
+            <h4><i class="fa fa-chevron-right"></i>Fonts:</h4>
+            <ul>
+              <li>Google Fonts - <a href="https://www.google.com/fonts" target="_blank">https://www.google.com/fonts</a></li>
+              <li>Font Squirrel - <a href="http://www.fontsquirrel.com/" target="_blank">http://www.fontsquirrel.com/</a></li>
+            </ul>
+
+            <h4><i class="fa fa-chevron-right"></i>Images and Icons:</h4>
+            <ul>
+              <li>Morguefile - <a href="http://www.morguefile.com/" target="_blank">http://www.morguefile.com/</a></li>
+              <li>Glyphicons - <a href="http://getbootstrap.com/components/#glyphicons" target="_blank">http://getbootstrap.com/components/</a></li>
+              <li>Font Awesome 4.1.0 - <a href="http://fortawesome.github.io/Font-Awesome/" target="_blank">http://fortawesome.github.io/Font-Awesome/</a></li>
+            </ul>
+
+            <br/><a href="#header">&raquo; go to top</a>
+            <hr>
+          </div>
+
+
+        </div>
+      </div>
+      <!-- ======================== end: MAIN CONTENT ======================== -->
+
+      <footer>
+        <p>&copy; TWILLI Themes 2014</p>
+      </footer>
+
+    </div><!--/.container-->
+
+
+    <!-- JavaScript
+    ================================================== -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>

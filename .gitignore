@@ -1,0 +1,7 @@
+*~
+*.DS_Store
+*.db
+
+# Application
+node_modules/
+build/
