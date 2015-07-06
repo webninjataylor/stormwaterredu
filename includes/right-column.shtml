@@ -1,0 +1,116 @@
+<div class="col-sm-4">
+
+    <!-- Gallery -->
+    <div id="sidebar-gallery" class="section-container sm-extra-top-padding clearfix">
+
+        <a href="about-gallery.shtml" class="section-header with-icon">
+            <div class="icon"><span class="glyphicon glyphicon-picture"></span></div>
+            <h5 class="text">Photo Gallery</h5>
+        </a><!-- .section-header -->
+
+        <div class="section-content clearfix">
+            
+            <div class="gallery-grid row clearfix">
+                <div class="gallery-item col-xs-3">
+                    <a href="images/temp/gallery/gallery-1.jpg" class="img-mask-effect fade" data-lightbox="sidebar-gallery">
+                        <img src="images/temp/gallery/gallery-thumb-1.jpg" alt="Sunset lake">
+                        <i class="mask"><span class="glyphicon glyphicon-search"></span></i>
+                    </a>
+                </div>
+                <div class="gallery-item col-xs-3">
+                    <a href="images/temp/gallery/gallery-2.jpg" class="img-mask-effect fade" data-lightbox="sidebar-gallery">
+                        <img src="images/temp/gallery/gallery-thumb-2.jpg" alt="Lighthouse">
+                        <i class="mask"><span class="glyphicon glyphicon-search"></span></i>
+                    </a>
+                </div>
+                <div class="gallery-item col-xs-3">
+                    <a href="images/temp/gallery/gallery-3.jpg" class="img-mask-effect fade" data-lightbox="sidebar-gallery">
+                        <img src="images/temp/gallery/gallery-thumb-3.jpg" alt="Mountains">
+                        <i class="mask"><span class="glyphicon glyphicon-search"></span></i>
+                    </a>
+                </div>
+                <div class="gallery-item col-xs-3">
+                    <a href="images/temp/gallery/gallery-4.jpg" class="img-mask-effect fade" data-lightbox="sidebar-gallery">
+                        <img src="images/temp/gallery/gallery-thumb-4.jpg" alt="Green scenery">
+                        <i class="mask"><span class="glyphicon glyphicon-search"></span></i>
+                    </a>
+                </div>
+                <div class="gallery-item col-xs-3">
+                    <a href="images/temp/gallery/gallery-5.jpg" class="img-mask-effect fade" data-lightbox="sidebar-gallery">
+                        <img src="images/temp/gallery/gallery-thumb-5.jpg" alt="Sunset">
+                        <i class="mask"><span class="glyphicon glyphicon-search"></span></i>
+                    </a>
+                </div>
+                <div class="gallery-item col-xs-3">
+                    <a href="images/temp/gallery/gallery-6.jpg" class="img-mask-effect fade" data-lightbox="sidebar-gallery">
+                        <img src="images/temp/gallery/gallery-thumb-6.jpg" alt="Sunrise">
+                        <i class="mask"><span class="glyphicon glyphicon-search"></span></i>
+                    </a>
+                </div>
+                <div class="gallery-item col-xs-3">
+                    <a href="images/temp/gallery/gallery-7.jpg" class="img-mask-effect fade" data-lightbox="sidebar-gallery">
+                        <img src="images/temp/gallery/gallery-thumb-7.jpg" alt="Lighthouse">
+                        <i class="mask"><span class="glyphicon glyphicon-search"></span></i>
+                    </a>
+                </div>
+                <div class="gallery-item col-xs-3">
+                    <a href="images/temp/gallery/gallery-8.jpg" class="img-mask-effect fade" data-lightbox="sidebar-gallery">
+                        <img src="images/temp/gallery/gallery-thumb-8.jpg" alt="Sunrise lake">
+                        <i class="mask"><span class="glyphicon glyphicon-search"></span></i>
+                    </a>
+                </div>
+            </div><!-- .gallery-grid -->
+
+        </div><!-- .section-content -->
+
+    </div><!-- .section-container -->
+    <!-- End: Gallery -->
+
+    <!-- Services -->
+    <div id="sidebar-services" class="section-container clearfix">
+
+        <a href="services.shtml" class="section-header with-icon">
+            <div class="icon"><span class="fa fa-th"></span></div>
+            <h5 class="text">Services</h5>
+        </a><!-- .section-header -->
+
+        <div class="section-content clearfix">
+            <ul class="vertical-simple-list">
+                
+                <!-- list item -->
+                <li class="item clearfix"><a href="services.shtml" class="item-content">
+                    <div class="icon"><span class="fa fa-users"></span></div>
+                    <h6 class="title">Full-service including event logistics</h6>
+                </a></li>
+
+                <!-- list item -->
+                <li class="item clearfix"><a href="services.shtml" class="item-content">
+                    <div class="icon"><span class="fa fa-university"></span></div>
+                    <h6 class="title">Instruction-only</h6>
+                </a></li>
+
+                <!-- list item -->
+                <li class="item clearfix"><a href="services.shtml" class="item-content">
+                    <div class="icon"><span class="fa fa-microphone"></span></div>
+                    <h6 class="title">Speaking</h6>
+                </a></li>
+
+                <!-- list item -->
+                <li class="item clearfix"><a href="services.shtml" class="item-content">
+                    <div class="icon"><span class="fa fa-globe"></span></div>
+                    <h6 class="title">Consulting</h6>
+                </a></li>
+                <!-- list item -->
+                <li class="item clearfix"><a href="services.shtml" class="item-content">
+                    <div class="icon"><span class="fa fa-certificate"></span></div>
+                    <h6 class="title">Continuing Education Credits</h6>
+                </a></li>
+
+            </ul><!-- .vertical-simple-list -->
+        </div><!-- .section-content -->
+
+    </div><!-- .section-container -->
+    <!-- End: Services -->
+
+
+</div><!-- .col-sm-4 -->

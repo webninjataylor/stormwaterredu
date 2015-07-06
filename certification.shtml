@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="">
+        <meta name="author" content="">
+        <title>StormwaterEdu.com - Certification and Testing</title>
+
+        <!-- favicon -->
+        <link rel="icon" type="image/png" href="images/temp/favicon.png">
+
+        <!-- Bootstrap CSS -->
+        <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+        <!-- Plugins CSS -->
+        <link href="plugins/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+        <link href="plugins/owl-carousel/owl.carousel.css" rel="stylesheet">
+        <link href="plugins/owl-carousel/owl.transitions.css" rel="stylesheet">
+        <link href="plugins/owl-carousel/owl.theme.css" rel="stylesheet">
+        <link href="plugins/lightbox/css/lightbox.css" rel="stylesheet">
+
+        <!-- Theme CSS -->
+        <link href="css/style-theme.css" rel="stylesheet">
+        <!-- <link href="css/style-theme.min.css" rel="stylesheet"> -->
+        <link href="css/style-colours.css" rel="stylesheet">
+        <!-- <link href="css/style-colours.min.css" rel="stylesheet"> -->
+        <link href="css/style-mixedcolours.css" rel="stylesheet">
+        <!-- <link href="css/style-mixedcolours.min.css" rel="stylesheet"> -->
+
+        <!-- loader -->
+        <link href="css/loader.css" rel="stylesheet">
+        <script src="plugins/pace/pace.min.js"></script>
+
+        <!-- Custom Theme CSS -->
+        <link href="css/styles.css" rel="stylesheet">
+
+        <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
+          <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+          <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+        <![endif]-->
+    </head>
+    <body class="background-light twlsky-orange twlsky-mixedcolours isolated-sections loader-bar">     
+
+        <!-- Page Outer Container -->
+        <div class="outer-container clearfix">
+
+            <!-- =========== Header =========== -->
+            <!--#include virtual="includes/header.shtml"-->
+
+            <!-- =========== Page Body Inside Content =========== -->
+            <div class="inside-body-content-container clearfix">
+
+                <!-- =========== Section 1: Top Banner =========== -->
+                <div id="top-banner" class="container-fluid horizontal-section-container clearfix">
+                    <div class="row">
+                        <div class="col-xs-12">
+                            <img src="images/temp/banner-1.jpg" alt="grassy hill" class="full-width-image">
+                        </div><!-- .col-xs-12 -->
+                    </div><!-- .row -->
+                </div>
+                <!-- End: Section 1: Top Banner -->
+
+                <!-- =========== Section: Breadcrumbs =========== -->
+                <div id="breadcrumbs-container" class="container-fluid horizontal-section-container hidden-xs clearfix">
+                    <div class="row">
+                        <div class="col-xs-12">
+                            <ol class="breadcrumb">
+                                <li><a href="index.shtml">Home</a></li>
+                                <li class="active"><a href="certification.shtml">About</a></li>
+                            </ol>
+                        </div>
+                    </div>
+                </div>
+                <!-- End: Section: Breadcrumbs -->
+
+                <!-- =========== Section 2 =========== -->
+                <div class="container-fluid horizontal-section-container clearfix">
+                    <div class="row">
+
+                        <div class="col-sm-12">
+                            <!-- Main Page Content -->
+                            <div id="main-page-content" class="section-container main-page-content clearfix">
+
+                                <div class="section-content">
+
+                                    <h1 class="page_title">Certification</h1>
+
+                                    <img src="images/temp/cary.jpg" alt="Town of Cary NC" class="content-image pull-left"> 
+
+                                    <p>
+                                        Certification is offered by StormwaterEdu but can also be offered or co-sponsored by state, regional, or local government entities or private NGO’s who work with us to provide the course.  Certification means the person earning the certificate has successfully completed the training recognized on the certificate and has passed an examination to certify competency in the subject matter.  Certification is not a substitution for professional licensing or practice acts.  Our certification courses may be used to provide PDH’s or continuing education credits.
+                                    </p>
+
+                                    <a name="objectives"></a><h4>Certification Goals</h4>
+                                    <ol>
+                                        <li>Understand stormwater, how it affects water quality, and regulations associated with it.</li>
+                                        <li>Understand stormwater management devices and how they function.</li>
+                                        <li>Understand inspection and maintenance requirements of each stormwater practice.</li>
+                                        </ol>
+                                    <p>The certification lasts for 3 years, after which we recommend a half day recertification course to learn about new developments in stormwater science.</p>
+                                    <p>Upon passing the certification exam, the certified individual will receive a certificate and inspector card.</p>
+                                    <h4>Recertification</h4>
+                                    <p>The science and practice of stormwater management continues to evolve. Update classes are available to renew certificates and to learn about the latest developments in stormwater science and regulation. This class will be 4-5 hours of lecture with no exam. Upon completion, receive an updated inspector card and certificate, valid for 3 years.</p>
+                                    <a name="professionals"></a><h4>Who Should Attend</h4>
+                                    <ul>
+                                        <li>Commercial Landscapers</li>
+                                        <li>Property Managers</li>
+                                        <li>Owners</li>
+                                        <li>Homeowners Associations</li>
+                                        <li>Professionals with Licensure (PE's, PLS's, RLA's)</li>
+                                        <li>Regulators</li>
+                                        <li>Municipal and County Landscape Personnel</li>
+                                        </ul>
+                                    <a name="curriculum"></a><h4>Course Offerings</h4>
+
+                                    <p>The 1.5 day course spends the morning of day 1 giving background on watersheds, water quality, regulations, and the scientific and engineering basis of stormwater control measures. The remainder of the course focuses on operation and maintenance of specific stormwater control measures. The 1 day course starts with a short introduction to stormwater and stormwater control and goes directly to individual stormwater control measures.</p> 
+                                    <h3>Typical Agenda - 1.5 day certification course</h3>
+
+                                    <h4>Day 1 - 8:30am-4:30pm </h4>
+                                    <p>Registration and Welcome  </p>
+                                    <ol>
+                                        <li>Introducation to Stormwater</li>
+                                        <li>Watersheds</li>
+                                        <li>Stormwater Regulations</li>
+                                        <li>BMP Functions</li>
+                                        <li>Elements of BMP Maintenance</li>
+                                        <li>Retention Pond Maintenance</li>
+                                        <li>Wetland Maintenance</li>
+                                        <li>Bioretention Maintenance</li>
+                                        <li>Licensing and Certification</li>
+                                        <li>Field Tour of Local BMPs</li>
+                                        </ol>
+                                    <h4>Day 2 - 8:30am-2:00pm</h4>
+                                    <ol>
+                                        <li>Level Spreader Maintenance</li>
+                                        <li>Maintenance of Green BMPs (Swales, Green Roofs, Cisterns, Infiltration Trenches) </li>
+                                        <li>Parking Lot BMPs (Permeable Pavement, Sand Filters, and Proprietary Systems)</li>
+                                        <li>Question &amp; Answer</li>
+                                        <li>Examination</li>
+                                        </ol>
+                                    <h3>Typical Agenda - 1-day certification course</h3>
+                                    <ol>
+                                        <li>Introduction to Stormwater</li>
+                                        <li>Retention Pond Maintenance</li>
+                                        <li>Bioretention Maintenance</li>
+                                        <li>Wetland Maintenance</li>
+                                        <li>Green BMPs (Swales, Green Roofs, Cisterns, Infiltration Trenches) Maintenance</li>
+                                        <li>Level Spreader Maintenance</li>
+                                        <li>Parking Lot BMPs (Permeable Pavement, Sand Filters, and Proprietary Systems)</li>
+                                        <li>Examination</li>
+                                        </ol>
+                                    <h3>Typical Agenda - 1-day <strong>re</strong>certification course</h3>
+                                    <h4>9:00am-4:00pm</h4>
+                                    <ol>
+                                        <li>Introduction</li>
+                                        <li>Bioretention update</li>
+                                        <li>Wetlands, wet ponds update</li>
+                                        <li>Green BMPs update</li>
+                                        <li>Parking lot BMPs update</li>
+                                        </ol>
+
+                                    <p>There is no exam for the recertification course.</p>
+
+
+
+                                    <h4>Full Service</h4>
+
+                                    <p>We provide registration processing, payment receipt, course notebooks and other handouts (printed or digital), instruction, professional development crediting, break service, meal catering, testing services, and attendance certification.</p>
+
+                                    <p>Suggested class size: Minimum 25 participants, suggested maximum 50 (to facilitate instructor/class interaction), though larger class sizes can be accommodated.</p>
+
+                                    <p>Suggested fee schedule: $250 per person for full day or $350 for day and a half course</p>
+
+                                    <p>Continuing Education: SCM I&amp;M short courses are excellent venues for offering professional development credits in engineering, landscape architecture, soil science, and commercial pesticide licensing.</p>
+
+
+
+                                    <h4>Instruction Only</h4>
+
+                                    <p>We provide teaching services customized for your needs. Should you wish to provide logistics support in terms of registration, payment processing, meal and break service, and handouts, fees can be negotiated.</p>
+
+
+
+                                    <h4>Speaking</h4>
+
+                                    <p>Principals of StormwaterEdu are available to make presentations at workshops and conferences on a wide variety of topics relating to stormwater research, stormwater field work, as well as green infrastructure and low impact development.  We can illustrate our talks with case studies from over 20 years of work in the stormwater arena.</p>
+
+
+
+                                    <h4>Consulting</h4>
+
+                                    <p>Private consulting services are available for clients outside of the state of North Carolina.  Please inquire about availability and fee structures at class@StormwaterEdu.com</p>
+
+                                    
+
+                                </div><!-- .section-content -->
+
+                            </div><!-- .section-container -->
+                            <!-- End: Main Page Content -->
+                        </div><!-- .col-sm-12 -->
+
+                    </div><!-- .row -->
+                </div><!-- .container-fluid -->
+                <!-- End: Section 2 -->
+
+
+                <!-- =========== Footer =========== -->
+                <!--#include virtual="includes/footer.shtml"-->
+
+            </div><!-- .inside-body-content-container -->
+            <!-- End: Page Body Inside Content -->
+
+        </div><!-- .outer-container -->
+        <!-- End: Page Outer Container -->
+
+        <!-- =========== Copyright, Social Links, and Scripts =========== -->
+        <!--#include virtual="includes/copyright-social.shtml"-->
+
+    </body>
+</html>

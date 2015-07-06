@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="">
+        <meta name="author" content="">
+        <title>StormwaterEDU.com - Services</title>
+
+        <!-- favicon -->
+        <link rel="icon" type="image/png" href="images/temp/favicon.png">
+
+        <!-- Bootstrap CSS -->
+        <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+        <!-- Plugins CSS -->
+        <link href="plugins/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+        <link href="plugins/owl-carousel/owl.carousel.css" rel="stylesheet">
+        <link href="plugins/owl-carousel/owl.transitions.css" rel="stylesheet">
+        <link href="plugins/owl-carousel/owl.theme.css" rel="stylesheet">
+        <link href="plugins/lightbox/css/lightbox.css" rel="stylesheet">
+
+        <!-- Theme CSS -->
+        <link href="css/style-theme.css" rel="stylesheet">
+        <!-- <link href="css/style-theme.min.css" rel="stylesheet"> -->
+        <link href="css/style-colours.css" rel="stylesheet">
+        <!-- <link href="css/style-colours.min.css" rel="stylesheet"> -->
+        <link href="css/style-mixedcolours.css" rel="stylesheet">
+        <!-- <link href="css/style-mixedcolours.min.css" rel="stylesheet"> -->
+
+        <!-- loader -->
+        <link href="css/loader.css" rel="stylesheet">
+        <script src="plugins/pace/pace.min.js"></script>
+
+        <!-- Custom Theme CSS -->
+        <link href="css/styles.css" rel="stylesheet">
+
+        <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
+          <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+          <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+        <![endif]-->
+    </head>
+    <body class="background-light twlsky-green twlsky-mixedcolours isolated-sections loader-bar">     
+
+        <!-- Page Outer Container -->
+        <div class="outer-container clearfix">
+
+            <!-- =========== Header =========== -->
+            <!--#include virtual="includes/header.shtml"-->
+
+            <!-- =========== Page Body Inside Content =========== -->
+            <div class="inside-body-content-container clearfix">
+
+                <!-- =========== Section 1: Top Banner =========== -->
+                <div id="top-banner" class="container-fluid horizontal-section-container clearfix">
+                    <div class="row">
+                        <div class="col-xs-12">
+                            <img src="images/temp/banner-4.jpg" alt="Green scenery" class="full-width-image">
+                        </div><!-- .col-xs-12 -->
+                    </div><!-- .row -->
+                </div>
+                <!-- End: Section 1: Top Banner -->
+
+                <!-- =========== Section: Breadcrumbs =========== -->
+                <div id="breadcrumbs-container" class="container-fluid horizontal-section-container hidden-xs clearfix">
+                    <div class="row">
+                        <div class="col-xs-12">
+                            <ol class="breadcrumb">
+                                <li><a href="index.shtml">Home</a></li>
+                                <li class="active"><a href="services.shtml">Services</a></li>
+                            </ol>
+                        </div>
+                    </div>
+                </div>
+                <!-- End: Section: Breadcrumbs -->
+
+                <!-- =========== Section 2 =========== -->
+                <div class="container-fluid horizontal-section-container clearfix">
+                    <div class="row">
+
+                        <div class="col-sm-12">
+                            <!-- Main Page Content -->
+                            <div id="main-page-content" class="section-container main-page-content clearfix">
+
+                                <div class="section-content">
+
+                                    <h1 class="page_title">Services</h1>
+
+                                    <!-- Media List -->
+                                    <div class="media-list clearfix">
+
+                                        <!-- Media List Item -->
+                                        <div class="media clearfix">
+                                            <a href="#" class="pull-left img-mask-effect zoom scaleimage">
+                                                <img src="images/temp/thumb-g_b-1.jpg" alt="Landscape, mountains">
+                                                <i class="mask"><span class="glyphicon glyphicon-plus-sign medium"></span></i>
+                                            </a>
+                                            <div class="media-body">
+                                                <h4 class="media-heading"><a href="#">Full Service</a></h4>
+                                                <p>We provide registration processing, payment receipt, course notebooks and other handouts (printed or digital), instruction, professional development crediting, break service, meal catering, testing services, and attendance certification.
+                                                <p>Suggested class size:  Minimum 25 participants, suggested maximum 50 (to facilitate instructor/class interaction), though larger class sizes can be accommodated.</p>
+<p>Suggested fee schedule:  $200 per person for full day or $295 for day and a half course</p>
+<p>Continuing Education:  SCM I&M short courses are excellent venues for offering professional development credits in engineering, landscape architecture, soil science, and commercial pesticide licensing.
+</p></p>
+<!--                                                <p><a href="#" class="btn btn-outline-inverse btn-sm">read more</a></p>-->
+                                            </div>
+                                        </div><!-- .media -->
+
+                                        <!-- Media List Item -->
+                                        <div class="media clearfix">
+                                            <a href="#" class="pull-left img-mask-effect zoom scaleimage">
+                                                <img src="images/temp/instruction.jpg" alt="Instruction">
+                                                <i class="mask"><span class="glyphicon glyphicon-plus-sign medium"></span></i>
+                                            </a>
+                                            <div class="media-body">
+                                                <h4 class="media-heading"><a href="#">Instruction Only</a></h4>
+                                                <p>We provide teaching services customized for your needs.   </p>
+                                                <p><a href="#" class="btn btn-outline-inverse btn-sm">read more</a></p>
+                                            </div>
+                                        </div><!-- .media -->
+
+                                        <!-- Media List Item -->
+                                        <div class="media clearfix">
+                                            <a href="#" class="pull-left img-mask-effect zoom scaleimage">
+                                                <img src="images/temp/speaking.jpg" alt="Speaking">
+                                                <i class="mask"><span class="glyphicon glyphicon-plus-sign medium"></span></i>
+                                            </a>
+                                            <div class="media-body">
+                                                <h4 class="media-heading"><a href="#">Speaking</a></h4>
+                                                <p>We can provide speakers for a full range of events, from seminars to conferences.</p>
+                                            </div>
+                                        </div><!-- .media -->
+
+                                        <!-- Media List Item -->
+                                        <div class="media clearfix">
+                                            <a href="#" class="pull-left img-mask-effect zoom scaleimage">
+                                                <img src="images/temp/consulting.jpg" alt="Consulting">
+                                                <i class="mask"><span class="glyphicon glyphicon-plus-sign medium"></span></i>
+                                            </a>
+                                            <div class="media-body">
+                                                <h4 class="media-heading"><a href="#">Consulting</a></h4>
+                                                <p>On-site or remote consulting services are available covering all aspects of stormwater design, installation, and maintenance for anywhere outside of the state of North Carolina.</p>
+                                            </div>
+                                        </div><!-- .media -->
+
+                                        <!-- Media List Item -->
+                                        <!--
+                                        <div class="media clearfix">
+                                            <a href="#" class="pull-left img-mask-effect zoom scaleimage">
+                                                <img src="images/temp/thumb-g_b-5.jpg" alt="Clothing line pegs">
+                                                <i class="mask"><span class="glyphicon glyphicon-plus-sign medium"></span></i>
+                                            </a>
+                                            <div class="media-body">
+                                                <h4 class="media-heading"><a href="#">Event Organizing</a></h4>
+                                                <p>Suspendisse quis lacinia diam. Nunc at justo id nunc dapibus semper. Cras sagittis metus pellentesque purus ornare egestas. Nullam tempor vitae dolor at ullamcorper.</p>
+                                                <p><a href="#" class="btn btn-outline-inverse btn-sm">read more</a></p>
+                                            </div>
+                                        </div>
+                                        -->
+                                        <!-- .media -->
+
+                                    </div><!-- .media-list -->
+
+                                </div><!-- .section-content -->
+
+                            </div><!-- .section-container -->
+                            <!-- End: Main Page Content -->
+                        </div><!-- .col-sm-12 -->
+
+                    </div><!-- .row -->
+                </div><!-- .container-fluid -->
+                <!-- End: Section 2 -->
+
+
+                <!-- =========== Footer =========== -->
+                <!--#include virtual="includes/footer.shtml"-->
+
+            </div><!-- .inside-body-content-container -->
+            <!-- End: Page Body Inside Content -->
+
+        </div><!-- .outer-container -->
+        <!-- End: Page Outer Container -->
+
+        <!-- =========== Copyright, Social Links, and Scripts =========== -->
+        <!--#include virtual="includes/copyright-social.shtml"-->
+
+    </body>
+</html>

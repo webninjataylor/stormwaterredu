@@ -930,3 +930,18 @@ function mainmenu_search_icon()
         event.stopPropagation();
     });    
 }
+
+/*********************************************/
+/******** HIGHLIGHT CURRENT MENU ITEM ********/
+/*********************************************/
+$(function(){
+    var swPage = window.location.pathname;
+    swPage = swPage.split('/')[swPage.split('/').length-1];
+    $.each($('#main-menu a'), function(){
+        if($(this).attr('href') === swPage){
+            if($(this).parent().hasClass('top-item')){
+                $(this).parent().addClass('current-menu-ancestor');
+            }
+        }
+    });
+});

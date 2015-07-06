@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="">
+        <meta name="author" content="">
+        <title>StormwaterEdu.com - About</title>
+
+        <!-- favicon -->
+        <link rel="icon" type="image/png" href="images/temp/favicon.png">
+
+        <!-- Bootstrap CSS -->
+        <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+        <!-- Plugins CSS -->
+        <link href="plugins/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+        <link href="plugins/owl-carousel/owl.carousel.css" rel="stylesheet">
+        <link href="plugins/owl-carousel/owl.transitions.css" rel="stylesheet">
+        <link href="plugins/owl-carousel/owl.theme.css" rel="stylesheet">
+        <link href="plugins/lightbox/css/lightbox.css" rel="stylesheet">
+
+        <!-- Theme CSS -->
+        <link href="css/style-theme.css" rel="stylesheet">
+        <!-- <link href="css/style-theme.min.css" rel="stylesheet"> -->
+        <link href="css/style-colours.css" rel="stylesheet">
+        <!-- <link href="css/style-colours.min.css" rel="stylesheet"> -->
+        <link href="css/style-mixedcolours.css" rel="stylesheet">
+        <!-- <link href="css/style-mixedcolours.min.css" rel="stylesheet"> -->
+
+        <!-- loader -->
+        <link href="css/loader.css" rel="stylesheet">
+        <script src="plugins/pace/pace.min.js"></script>
+
+        <!-- Custom Theme CSS -->
+        <link href="css/styles.css" rel="stylesheet">
+
+        <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
+          <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+          <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+        <![endif]-->
+    </head>
+    <body class="background-light twlsky-orange twlsky-mixedcolours isolated-sections loader-bar">      
+
+        <!-- Page Outer Container -->
+        <div class="outer-container clearfix">
+
+            <!-- =========== Header =========== -->
+            <!--#include virtual="includes/header.shtml"-->
+
+            <!-- =========== Page Body Inside Content =========== -->
+            <div class="inside-body-content-container clearfix">
+
+                <!-- =========== Section 1: Top Banner =========== -->
+                <div id="top-banner" class="container-fluid horizontal-section-container clearfix">
+                    <div class="row">
+                        <div class="col-xs-12">
+                            <img src="images/temp/banner_walmart_photo.jpg" alt="Walmart parking lot photo" class="full-width-image">
+                        </div><!-- .col-xs-12 -->
+                    </div><!-- .row -->
+                </div>
+                <!-- End: Section 1: Top Banner -->
+
+                <!-- =========== Section: Breadcrumbs =========== -->
+                <div id="breadcrumbs-container" class="container-fluid horizontal-section-container hidden-xs clearfix">
+                    <div class="row">
+                        <div class="col-xs-12">
+                            <ol class="breadcrumb">
+                                <li><a href="index.shtml">Home</a></li>
+                                <li class="active"><a href="about.shtml">About</a></li>
+                            </ol>
+                        </div>
+                    </div>
+                </div>
+                <!-- End: Section: Breadcrumbs -->
+
+                <!-- =========== Section 2 =========== -->
+                <div class="container-fluid horizontal-section-container clearfix">
+                    <div class="row">
+
+                        <div class="col-sm-8">
+                            <!-- Main Page Content -->
+                            <div id="main-page-content" class="section-container main-page-content clearfix">
+
+                                <div class="section-content clearfix">
+
+                                    <h1 class="page_title">About Us</h1>
+
+                                    <p>Stormwater Edu is a full service stormwater education service with a core offering of Stormwater SCM Inspection and Maintenance training modeled on the extremely successful North Carolina BMP Inspection and Maintenance Program.  N.C.’s I&amp;M program began certifying landscapers, engineers, landscape architects, and local government workers in 2006, and has certified over 2500 people since its inception.  The N.C. I&amp;M program has helped start many successful stormwater inspection and/or maintenance businesses across the southeastern United States and has resulted in much improved levels of stormwater infrastructure design, installation, and maintenance in its service area.  In addition to offering I&amp;M certification, the North Carolina course serves as an excellent stormwater survey short course for new employees or students interested in a career in stormwater.  For more information on North Carolina’s program see:<br />  <a href="http://www.bae.ncsu.edu/topic/bmp-im/" target="_blank">http://www.bae.ncsu.edu/topic/bmp-im/</a>.</p>
+                                    <a name="instructors"></a><h4>Instructors</h4>
+                                    <p>Instruction is provided by university level stormwater professionals with combined experience of 40+ years in stormwater research, field work, and teaching.  Courses are taught by a PhD professional engineer and a professional horticulturalist/entomologist who can offer professional instruction on all aspects of Green Infrastructure and Low Impact Development.  <!--Course planning and implementation can be provided by a professional event organizer with 20+ years of experience organizing and conducting state, regional, and national meetings.-->  Courses can be customized for local or regional needs, emphasizing local regulations, climate, vegetation, and supporting infrastructure.  The instructors have given customized courses all over the continental United States and in several foreign countries.
+</p>
+</p>
+
+                                    <a name="description"></a><h4>Why is Stormwater BMP Inspection and Maintenance Needed?</h4>
+                                    <p>Communities across the United States must manage rainfall that runs off roads, streets and parking lots. This runoff is called stormwater. To manage stormwater, many treatment devices, called SCMs, have been built. These devices include: wet retention ponds, dry ponds, bioretention areas, swales, stormwater wetlands, permeable pavement, and rainwater harvesting systems.</p>
+                                    <img src="images/temp/about_img.jpg" alt="Sky" class="content-image pull-left">
+                                
+                                    <a name="opportunities"></a><h4>Opportunities in Stormwater</h4>
+                                    <p>SCM Inspection and Maintenance offers a business opportunity for inspection by licensed professionals such as engineers and landscape architects, and maintenance by landscape and other green industry professionals. Many local governments perform SCM I&M as well and benefit from professional training.  Designers will learn to design SCMs/BMPs with maintenance in mind; landscapers can diversify their business to ensure year-round work in a recession-proof area of work; and suppliers of materials and technology to the stormwater industry can learn about new and existing opportunities to support the stormwater industry. </p>  
+
+                                    <a name="ceu"></a><h4>Continuing Education Credits</h4>
+                                    <p>SCM I&amp;M short courses are excellent venues for offering professional development credits in engineering, landscape architecture, soil science, and commercial pesticide licensing.</p>
+
+
+
+                                </div><!-- .section-content -->
+
+                            </div><!-- .section-container -->
+                            <!-- End: Main Page Content -->
+                        </div><!-- .col-sm-8 -->
+
+                        <!-- =========== Right Column =========== -->
+                        <!--#include virtual="includes/right-column.shtml"-->
+
+                    </div><!-- .row -->
+                </div><!-- .container-fluid -->
+                <!-- End: Section 2 -->
+
+
+                <!-- =========== Footer =========== -->
+                <!--#include virtual="includes/footer.shtml"-->
+
+            </div><!-- .inside-body-content-container -->
+            <!-- End: Page Body Inside Content -->
+
+        </div><!-- .outer-container -->
+        <!-- End: Page Outer Container -->
+
+        <!-- =========== Copyright, Social Links, and Scripts =========== -->
+        <!--#include virtual="includes/copyright-social.shtml"-->
+
+    </body>
+</html>
