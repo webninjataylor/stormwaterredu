@@ -62,11 +62,11 @@
 
                                 <div class="item">
                                     <div class="text bottom left">
-                                        <a href="about.html"><h2>Customizable training</h2></a>
+                                        <a href="about.shtml"><h2>Customizable training</h2></a>
                                         <div class="clearfix"></div>
-                                        <a href="about.html"><h5>Tailored to your organization's needs.</h5></a>
+                                        <a href="about.shtml"><h5>Tailored to your organization's needs.</h5></a>
                                     </div>
-                                    <a href="about.html"><img class="lazyOwl" data-src="images/temp/carousel-img1.gif" src="#" alt="Stormwater Wetland"></a>
+                                    <a href="about.shtml"><img class="lazyOwl" data-src="images/temp/carousel-img1.gif" src="#" alt="Stormwater Wetland"></a>
                                 </div>
 
                                 <div class="item">
@@ -122,7 +122,7 @@
 
                                 <p>StormwaterEdu is a full service stormwater education service with a core offering of Stormwater SCM Inspection and Maintenance (I&amp;M) training modeled on the extremely successful North Carolina BMP Inspection and Maintenance Program.  </p>
 
-                                <p><a href="about.html" class="btn btn-outline-inverse btn-lg">find out more</a></p>
+                                <p><a href="about.shtml" class="btn btn-outline-inverse btn-lg">find out more</a></p>
 
                             </div><!-- .section-container -->
                             <!-- End: Website Intro Paragraph -->
